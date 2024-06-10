@@ -1,0 +1,36 @@
+li {
+    cursor: pointer;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+#form-tarefa {
+    margin-bottom: 20px;
+}
+
+#input-tarefa {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#input-tarefa:focus {
+    outline: none;
+    border-color: dodgerblue;
+}
+
+#botao-adicionar {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao-adicionar:hover {
+    background-color: #007bff;
+}
